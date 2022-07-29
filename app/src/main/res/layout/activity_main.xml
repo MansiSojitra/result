@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="70sp"
+        android:hint="ADVANCED JAVA"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="140sp"
+        android:hint="WEB-PROGRAMMING"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="210sp"
+        android:hint="TOC"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="280sp"
+        android:hint="CRYPTOGRAPHY"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/bttotal"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:text="RESULT"
+        android:textSize="20sp"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="140sp"></Button>
+
+<!--     <TextView-->
+<!--         android:id="@+id/txttotal"-->
+<!--         android:layout_width="300sp"-->
+<!--         android:layout_height="60sp"-->
+<!--         android:layout_marginTop="450sp"-->
+<!--         android:layout_marginLeft="60sp"></TextView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtpr"-->
+<!--        android:layout_width="300sp"-->
+<!--        android:layout_height="60sp"-->
+<!--        android:layout_marginTop="520sp"-->
+<!--        android:layout_marginLeft="60sp"></TextView>-->
+
+
+</RelativeLayout>
